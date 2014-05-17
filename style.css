@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.item {
+	background-color: red;
+	/*width:200px;*/
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.item img {
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+
+}
+
+.item .contents {
+	background-color: yellow;
+
+	margin-left: 50px;
+	padding-left: 20px:;
+
+}
+
+main {
+	overflow: hidden;
+	width: 960px; /* industry standard page width */
+	margin:auto; /* center main on page */
+}
+
+aside {
+	width: 200px;
+	min-height: 1200px;
+	background-color: orange;
+	float: left;
+}
+
+.main-content {
+	margin-left: 200px;
+	min-height: 1200px;
+	padding-left: 10px;
+	background-color: blue;
+}

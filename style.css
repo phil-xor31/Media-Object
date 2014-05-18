@@ -44,4 +44,5 @@ aside {
 	min-height: 1200px;
 	padding-left: 10px;
 	background-color: blue;
+	overflow: hidden;
 }
